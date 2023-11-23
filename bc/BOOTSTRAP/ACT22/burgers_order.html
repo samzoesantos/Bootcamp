@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Order Here!</title>
+<link rel="stylesheet" href="path/to/bootstrap.css">
+<style>
+     .order-section {
+    background-color: #ffe6b6;
+  }
+  .order-section h1 {
+    text-align: center;
+  }
+  .menu-table {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .menu-table th {
+    background-color: #ffc863;
+  }
+  .menu-table td {
+    background-color: #ffffff;
+  }
+  .menu-category {
+    background-color: #ffe5b6;
+  }
+  .success {
+    background-color: #d4edda;
+  }
+  .table-footer {
+    background-color: #faeed8;
+  }
+  .survey-section {
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 2em;
+    padding: 1em;
+  }
+  .fork-spaghetti-img {
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-bottom: 1em;
+  }
+
+  .table-custom {
+    background-color: #ffe6b6; 
+  }
+  .table-custom th {
+    background-color: #ffc863; 
+  }
+  .table-custom td {
+    background-color: #ffffff; 
+  }
+  .table-footer {
+    background-color: #faeed8;
+  }
+  .table .success {
+    background-color: #d4edda;
+  }
+  .survey-section {
+    background-color: #000000; 
+    color: #ffffff; 
+    margin-top: 2em;
+  }
+  .form-floating {
+    margin-bottom: 1em;
+  }
+  .input-group {
+    margin-bottom: 1em;
+  }
+  @media (max-width: 320px) {
+    /Users/zoesantos/Desktop/bootcamp folder/BOOTSTRAP/basil-sauce.png{
+      display: none;
+    }
+  }
+</style>
+</head>
+<body>
+
+
+    <section class="order-section">
+        <h1>Order Here!</h1>
+        <table class="menu-table">
+  
+    <thead>
+      <tr>
+        <th>Icons</th>
+        <th>Item Name</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Meals</th>
+            <th></th>
+          </tr>
+    </thead>
+  
+
+    <tbody>
+        <tr class="table-success">
+            <td><img src="italiano burger.jpeg" alt="Italiano Burger" style="height: 50px;"></td>
+            <td>Italiano burger</td>
+            <td>₱55</td>
+        </tr>
+
+          <tr>
+            <td><img src="italiano fried chicken.jpeg" alt="Italiano Fried Chicken" style="height: 50px;"></td>
+            <td>Italiano Fried Chicken</td>
+            <td>₱55</td>
+          </tr>
+      
+          <tr>
+            <td><img src="italiano spaghetti.jpeg" alt="Italiano Spaghetti" style="height: 50px;"></td>
+            <td>Italian Spaghetti</td>
+            <td>₱55</td>
+          </tr>
+      
+          <tr>
+            <td><img src="italiano pizza.jpeg" alt="Italiano Pizza" style="height: 50px;"></td>
+            <td>Italiano Pizza </td>
+            <td>₱150</td>
+          </tr>
+          
+          <thead>
+            <tr>
+                <th></th>
+                <th>Drinks</th>
+                <th></th>
+              </tr>
+        </thead>
+        <tr>
+            <td></td>
+            <td>Coke</td>
+            <td>₱20.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Sprite</td>
+            <td>₱20.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Sarsi</td>
+            <td>₱20.00</td>
+          </tr>
+         
+    </tbody>
+    <tfoot class="table-footer">
+      <tr rowspan="2">
+        <td colspan="2" rowspan="2">All items are subject to tax. No refunds. All items are not transferable.</td>
+     <td rowspan="2"> Extra Rice-₱20.00 </td>
+    </tr>
+    </tfoot>
+    <img src="basil-sauce.png" alt="Fork with Spaghetti" class="fork-spaghetti-img">
+  </table>
+  
+</section>
+
+
+
+<section class="survey-section">
+  <h2>Tell Us What You Think!</h2>
+  <img src="layer burger.webp" alt="Layer Burger" style="float: left; margin-right: 1em;">
+  <form>
+    <div class="form-floating">
+      <input type="text" class="form-control" id="name" placeholder="Name">
+      <label for="name">Name</label>
+    </div>
+   <div class="row">
+          <label>What did we do well?</label>
+          <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="a1"
+              name="service"
+              id="a1"
+            /><label class="form-check-label" for="a1">The service</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="a2"
+              name="food"
+              id="a2"
+            /><label class="form-check-label" for="a2">The food</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="a3"
+              name="atmosphere"
+              id="a3"
+            /><label class="form-check-label" for="a3">The atmosphere</label>
+          </div>
+  
+     
+    </div>
+   How Many Times Have you went to our restaurant
+    <div>
+        <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="s1"
+              name="star1"
+              id="s1"
+            /><label class="form-check-label" for="s1">⭐<div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="s2"
+              name="star2"
+              id="s2"
+            /><label class="form-check-label" for="s2">⭐⭐</label>
+          </div></label>
+        </div>
+    </div>
+    <div class="form-check">
+        <input
+          type="radio"
+          class="form-check-input"
+          value="s3"
+          name="star3"
+          id="s3"
+        /><label class="form-check-label" for="s3">⭐⭐⭐<div class="form-check">
+            <div class="form-check">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  value="s4"
+                  name="star4"
+                  id="s4"
+                /><label class="form-check-label" for="s4">⭐⭐⭐⭐<div class="form-check">
+                    <div class="form-check">
+                        <input
+                          type="radio"
+                          class="form-check-input"
+                          value="s5"
+                          name="star5"
+                          id="s5"
+                        /><label class="form-check-label" for="s5">⭐⭐⭐⭐⭐<div class="form-check">
+          
+            <div class="input-group"> Give Us Tip
+      <span class="input-group-text">₱</span>
+      <input type="text" class="form-control" aria-label="Amount (to the nearest peso)">
+      <span class="input-group-text">.00</span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
+</body>
+</html>

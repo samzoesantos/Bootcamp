@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Registration</title>
+</head>
+<body>
+    <h1>Voter Registration</h1>
+    <form>
+        <div>
+            <label for="first-name">First name:</label><br>
+            <input type="text" id="first-name" name="firstName" placeholder="ex. Juan" required>
+        </div>
+        <div>
+            <label for="last-name">Last name:</label><br>
+            <input type="text" id="last-name" name="lastName" placeholder="ex. dela Cruz" required>
+        </div>
+        <div>
+            <label for="email_address">Email Address:</label><br>
+            <input type="email" id="email_address" name="emailAddress" placeholder="ex.jdelacruz@gmail.com" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="at least six characters" required minlength="6"><br>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" name="confirmPassword" placeholder="re-enter password" required>
+        </div>
+        <div>
+            <label for="birthdate">Birthdate:</label><br>
+            <input type="date" id="birthdate" name="birthdate" required><br>
+        </div>
+        <div>
+            <label for="excitement">How excited are you to vote:</label><br>
+            <input type="range" id="excitement" name="excitement" min="0" max="10"><br>
+           <label for="civil_status">Civil Status</label>
+           <select name="Civil Status"
+           id="civil_status"
+            <option value="single">Single</option><br>
+            <option value="Married"> Married</option><br>
+            <option value="Widowed">Widowed</option><br>
+            <option value="Other">Other</option><br>
+           
+            <label for="children-number">Number of Children:</label><br>
+            <input type="number" id="children-number" name="childrenNumber" placeholder="ex. 2" value="0" min="0"><br>
+            <label for="pic_voter_id">Upload Picture of Voter ID:</label><br>
+            <input type="file" id="pic_voter_id" name="picVoterId" accept="image/*"><br>
+            <label for="drivers_license">Driver's License:</label><br>
+            <input type="text" id="drivers_license" name="driversLicense" 
+            maxlength="13" minlength="13" required placeholder="ex.E12-00-00000"><br>
+        </div>
+        <label for="Feedback">PRovide Feedback on the Registration Process</label><br>
+        <textarea placeholder="Enter 3-5 sentences"
+        rows="5" cols="15"></textarea>
+        <input type="submit" value="Submit Registration Form">
+    </form>
+    <h2>Your Ballot</h2>
+    <form>
+        <h2>President</h2>
+        <input
+        type="radio"
+        name="president"
+        value="lelouch_britannia"
+        id="president1"
+      />
+      <label for="president1">Lelouch Vi Britannia</label><br />
+      <input
+        type="radio"
+        name="president"
+        value="eren_jaeger"
+        id="president2"
+        checked
+      />
+      <label for="president2">Eren Jaeger</label><br />
+      <input
+        type="radio"
+        name="president"
+        value="matt_monroe"
+        id="president3"
+      />
+      <label for="president3">Matt Monroe</label><br />
+       <h2>Vice President</h2> 
+       <input type="radio" name="Vice President" value="Suzaku _Kururugi" id="vice1"/>
+       <label for="vice1">Suzaku Kururugi</label><br>
+       <input type="radio" name="vice president" value="King Cole" id="vice2"/>
+       <label for="=vice2">King Cole</label>
+      
+       <h2>Senator</h2>
+        <input type="checkbox" name="senator1"  
+        id="senator1"
+        value="Kim_Taehyung"/>
+        <label for="senator1">Kim Taehyung</label><br>
+        <input type="checkbox" name="senator2"
+        id="senator2"
+        value="Park_Jimin"/>
+        <label for="senator2">Park Jimin</label><br>
+        <input type="checkbox" name="senator3"
+        id="senator3"
+        value="Jeon_Jungkook"/>
+        <label for="senator3">Jeon Jungkook</label><br>
+        <input type="submit" value="Submit Ballot"/>
+
+    </form>
+</body>
+</html>

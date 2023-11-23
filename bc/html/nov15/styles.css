@@ -1,0 +1,91 @@
+
+body {
+    font-family: Comic Sans MS;
+    margin: 0px;
+    background-color: pink;
+    background-image:url(windows_xp_bliss-wide.jpg) ;
+    background-repeat: cover;
+  }
+  
+  nav table {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px;
+  }
+  
+  div.center-content {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  img.church-banner {
+    width: 450px;
+  }
+  
+  h1.ministries-header {
+    color: rgb(70, 130, 180);
+  }
+
+  div.ministries-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .choir-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+
+  img.pastor-image {
+    width: 350px;
+    margin-right: 20px;
+  }
+  
+  h2.ministries-title {
+    font-size: 200%;
+    color: rgb(70, 130, 180);
+  }
+  
+  p.ministries-text {
+    font-size: 130%;
+  }
+  
+  p.save-huell {
+    font-size: 200%;
+  }
+  
+  a.save-huell-link {
+    color: rgb(255, 0, 216);
+  }
+  
+  div.cross-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  img.cross-image {
+    width: 120px;
+  }
+  
+  div.ministries-list {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75%;
+    color: rgb(160, 160, 160);
+  }
+  

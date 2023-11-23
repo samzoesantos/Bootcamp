@@ -1,0 +1,155 @@
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border-bottom: 4px solid rgb(99, 99, 99);
+}
+
+td {
+  width: 20%;
+}
+tr :hover { background-color: yellow;}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  background-color: rgb(255, 157, 157);
+  background-image: url(");
+  background-repeat: cover;
+  background-attachment: fixed;
+}
+
+/* Overlay Styling */
+#overlay {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgba(0, 0, 0, 0.114);
+}
+
+/* Choir Section */
+#choir-section {
+  width: 150px;
+  height: 150px;
+}
+
+#choir-section:hover {
+  width: 250px;
+  height: 250px;
+}
+
+/* Choir Image */
+#choir-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(50%);
+}
+
+/* Navigation Bar */
+#nav-bar {
+  background-color: rgb(70, 130, 180);
+  color: white;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+
+/* Banner */
+#banner {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Ministries Section */
+#ministries-section {
+  text-align: center;
+}
+
+#ministries-text {
+  color: rgb(70, 130, 180);
+  font-size: 250%;
+}
+
+#ministries-text:hover {
+  color: yellow;
+}
+
+/* Free Section */
+#free-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#free-image {
+  width: 350px;
+  margin-right: 20px;
+}
+
+#free-title {
+  font-size: 200%;
+  color: rgb(70, 130, 180);
+}
+
+#free-action {
+  margin-bottom: 50px;
+}
+
+#free-link {
+  color: green;
+  font-size: 200%;
+  text-decoration: underline blue wavy 1px;
+}
+
+#free-link:visited {
+  color: red;
+}
+
+#free-link:link {
+  color: lime;
+}
+
+#free-link:active {
+  color: magenta;
+}
+
+/* Other Section */
+#other-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+#other-center {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#other-title {
+  font-size: 100%;
+  margin: 0px;
+}
+
+#other-list {
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+.footer-link {
+  color: rgb(160, 160, 160);
+}
+
+#footer-bottom {
+  font-size: 75%;
+}

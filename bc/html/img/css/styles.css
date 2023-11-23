@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 255, 143);
+    font-family: 'Helvetica', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.resumeheading{color: red;}
+#about-heading{color: blue;}

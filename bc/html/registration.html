@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="ISCP Logo" id="logo"><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+<h2>Basic Information</h2>
+    <label for="first_name">First Name</label>
+    <input type="text" id="first_name" name="First Name" placeholder="Ex. Juan" required><br>
+    <label for="last_name">Last Name</label>
+    <input type="text" id="last_name" name="Last Name" placeholder="Ex. Dela Cruz" required> <br>
+    <label for="POB">Place of Birth</label>
+    <input type="text" id="POB" name="Place of Birth" placeholder="Ex. Cebu City" required> <br>
+    <label for="birthdate">Birthdate</label>
+    <input type="date" id="birthdate" name="Birthdate" required> <br>
+    <label for="civil_status">Civil Status</label>
+    <select name="Civil Status" id="civil_status">
+        <option value="Single">Single</option>
+        <option value="Married">Married</option>
+        <option value="Widowed">Widowed</option>
+        <option value="Separated">Separated</option>
+    </select><br>
+
+    <label for="gender">Gender</label>
+
+    <select name="Gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select><br>
+    <label for="mothers_maiden_name">Mother's Maiden Name</label>
+    <input type="text" id="mothers_maiden_name" name="Mother's Maiden Name" placeholder="Mother's Maiden Name " required><br>
+    <label for="fathers_name">Father's Name</label>
+    <input type="text" id="fathers_name" name="Father's Name" placeholder="Father's Name" required><br>
+    <h2>Contact Information</h2>
+    <label for="Email_Address">Email Address</label>
+    <input type="email" id="Email_Address" name="Email Address" placeholder="Ex. jdelacruz@gmail.com" required><br>
+    <label for="cn">Contact Number</label>
+    <input type="text" id="cn" name="Contact Number (mobile)" minlength="10" maxlength= "10" placeholder="Mobile Number" required><br>
+    <label for="cntelephone">Contact Number Telephone</label>
+    <input type="text" id="cntelephone" name="Contact Number(telephone)" placeholder="Telephone" required><br>
+<h2>Address</h2>
+<label for="Street_Number">Street Number</label>
+<input type="text" id="Street_Number" name="Street Number" placeholder="Street Number" required><br>
+<label for="Street_Name">Street Name</label>
+<input type="text" id="Street_Name" name="Street Name" placeholder="Street Name" required><br>
+<label for="Barangay">Barangay</label>
+<input type="text" id="Barangay" name="Barangay" placeholder="Barangay" required><br>
+<label for="City">City</label>
+<input type="text" itemid="City" name="City/Town" placeholder="City/Town" required><br>
+<label for="Province">Province</label>
+<input type="text" id="Province" name="Province" placeholder="Province" required><br>
+<label for="Full_Address">Full Address</label>
+<input type="text" id="Full_Address" name="Full Address" placeholder="Full Address" required><br>
+<h2>Government Information</h2>
+<label for="SSS">SSS ID</label>
+<input type="text" id="SSS" name="SSS ID" placeholder="SSS ID" required><br>
+<label for="pag_ibig">Pag-Ibig ID</label>
+<input type="text" id="pag_ibig" name="Pag-Ibig ID" placeholder="Pag-Ibig ID" required><br>
+<label for="PhotoUpload">Upload 2x2 Picture</label>
+<input type="file" id="PhotoUpload" name="Upload 2x2 Picture" required><br>
+<label for="picGovID">Upload Pictureof Government ID</label>
+<input type="file" id="picGovID" name="Upload Picture of Govt ID"><br>
+<h2>Account Information</h2>
+<label for="username">Username</label>
+<input type="text" id="username" name="Username" placeholder="Username" required><br>
+<label for="password">Password</label>
+<input type="password" id="password" name="Password" placeholder="At least six characters" required><br>
+<label for="confirm_password">Confirm Password</label>
+<input type="password" id="confirm_password" name="Confirm Password" placeholder="Re-enter Password" required><br>
+<label for="Profile_Image">Upload Profile Image</label>
+<input type="file" id="Profile_Image" name="Upload Profile Image" required><br>
+<label for="Have_You_Experienced">Have you Experienced the Following in the Last 30 Days</label><br>
+<label for="coughing">Coughing</label>
+<input type="checkbox" id="coughing" name="symptoms" value="Coughing"><br>
+
+<label for="fever">Fever</label>
+<input type="checkbox" id="fever" name="symptoms" value="Fever"><br>
+
+<label for="headache">Headache</label>
+<input type="checkbox" id="headache" name="symptoms" value="Headache"><br>
+
+<label for="common_cold">Common cold</label>
+<input type="checkbox" id="common_cold" name="symptoms" value="Common cold"><br>
+
+<label for="body_ache">Body ache</label>
+<input type="checkbox" id="body_ache" name="symptoms" value="Body ache"><br>
+
+<label for="sore_throat">Sore throat</label>
+<input type="checkbox" id="sore_throat" name="symptoms" value="Sore throat"><br>
+
+<label for="tiredness">Tiredness</label>
+<input type="checkbox" id="tiredness" name="symptoms" value="Tiredness"><br>
+
+<label for="loss_of_smell">Loss of smell</label>
+<input type="checkbox" id="loss_of_smell" name="symptoms" value="Loss of smell"><br>
+<label for="Short_Description">Give short description of yourself</label><br>
+        <textarea placeholder="Enter 3-5 sentences"
+        rows="5" cols="15"></textarea><br>
+        <input type="submit" value="Submit"><br>
+</body>
+</html>
